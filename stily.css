@@ -4,32 +4,7 @@
     box-sizing: border-box;
 }
 
-/*boot css*/
-.center{
-  max-width: 1284px;
-  padding: 0 2%;
-  margin: 0 auto;
-}
 
-.w50{
-    width: 50%;
-}
-
-.w33{
-    width: 33.3%;
-}
-
-.left{
-    clear: left;
-}
-
-.rigth{
-    clear: right;
-}
-
-.clear{
-    clear: both;
-}
 
 
 /*centralizando imagem*/
@@ -130,6 +105,7 @@ html{
     text-transform: uppercase;
     transition: background 0.7s ease-in-out;
 }
+
 
 
 
