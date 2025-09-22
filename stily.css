@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*boot css*/
+.center{
+  max-width: 1284px;
+  padding: 0 2%;
+  margin: 0 auto;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w33{
+    width: 33.3%;
+}
+
+.left{
+    clear: left;
+}
+
+.rigth{
+    clear: right;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/*centralizando imagem*/
+
+.imagem-lt{
+    width: 400px;
+    height: 500px;
+}
+
+.imagem-lt img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+
+/*botando imagem no fundo*/
+html{
+  width: 100vw;
+   height: 100vh;
+   font-size: 62.5%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-image: url('../img/imgfundo.png');
+  background-size: cover;
+}
+
+
+.conteudo{
+ display: flex;
+}
+
+
+/*editando layout login*/
+
+.login{
+    width: 400px;
+    height: 500px;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    background:#8ca5aa  ;
+    padding:20px;
+    display: flex;
+}
+
+/*editando o formulario pai*/
+.login form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/*texto central do login*/
+.login form h2{
+    font-size: 40px;
+    align-self: center;
+    color: rgb(4, 33, 94);
+    text-transform: uppercase;
+}
+
+.login form div label{
+   color: rgb(4, 33, 94);
+   font-size: 24px;
+}
+
+
+/*btodos os input*/
+.login form div input{
+    width: 94%;
+    height: 83%;
+    justify-content: center;
+    justify-items: center;
+    border: none;
+    border-bottom: 1px solid  rgb(4, 33, 94);
+    background: transparent;
+    outline: none;
+}
+
+
+/*botao Logar*/
+.login form div input[type=submit]{
+    width: 89%;
+    height: 100%;
+    font-size: 28px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.login form div input[type=submit]:hover{
+    width: 70%;
+    background:rgb(4, 33, 94);
+    cursor: pointer;
+    color:#8ca5aa ;
+    border: 1px solid black;
+    text-transform: uppercase;
+    transition: background 0.7s ease-in-out;
+}
+
+
+
